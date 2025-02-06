@@ -17,6 +17,9 @@ Cualquier problema para acceder al recurso puedes reportármelo en el siguiente 
 
 ## Referencias útiles para esta práctica
 Regla SEI CERT CON40-C: https://wiki.sei.cmu.edu/confluence/display/c/CON40-C.+Do+not+refer+to+an+atomic+variable+twice+in+an+expression
+
 Función atomic_compare_exchange_weak: https://en.cppreference.com/w/c/atomic/atomic_compare_exchange
+
 Solución también compliant con CON41-C: https://wiki.sei.cmu.edu/confluence/display/c/CON41-C.+Wrap+functions+that+can+fail+spuriously+in+a+loop
+
 Vulnberabilidad que referencia a CON40-C: https://cwe.mitre.org/data/definitions/366.html
